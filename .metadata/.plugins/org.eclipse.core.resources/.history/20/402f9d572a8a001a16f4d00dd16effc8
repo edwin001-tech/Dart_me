@@ -1,0 +1,17 @@
+//. A constructor is a special method that is automatically called when an object of a class is created.
+// It can be used to set initial values for properties of the class
+main() { 
+ Person person = Person('Edwin', 'Saliko'); 
+ print ('${person.name} ${person.surname}');
+ 
+} 
+class Person { 
+ String name, surname;
+//constructor
+ Person(String name, String surname) {
+  this.name = name;
+  this.surname = surname;
+ }
+//second named constructor 
+Person.empty();
+} 

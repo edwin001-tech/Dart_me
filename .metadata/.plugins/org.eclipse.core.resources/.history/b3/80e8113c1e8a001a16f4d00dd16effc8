@@ -1,0 +1,8 @@
+void main() {
+ double result = calculateArea(12, 5);
+ print ('The result is ' + result.toString());
+}
+double calculateArea(double width, double height) {
+ double area = width * height;
+ return area; 
+}

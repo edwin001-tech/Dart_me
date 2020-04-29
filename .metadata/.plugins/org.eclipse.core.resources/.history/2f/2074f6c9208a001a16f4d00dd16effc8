@@ -1,0 +1,6 @@
+void main() {
+    String myString = 'Throw your Dart';
+    String result = reverse(myString);
+    print (result);
+}
+//reverse method

@@ -1,0 +1,14 @@
+void main() {
+ String mySongs = sing();
+ print (mySongs); 
+}
+
+String sing() { 
+ var songs = List<String>(); 
+ var songString = ''; 
+ songs.add('We will Rock You'); 
+ songs.add('One'); 
+ songs.add('Sultans of Swing'); 
+ songs.forEach((song) => songString += song + " - "); 
+ return songString; 
+}

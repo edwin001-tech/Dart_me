@@ -1,0 +1,15 @@
+main() { 
+ Person clark = Person('Clark', 'Kent'); 
+ print ('${clark.name} ${clark.surname}');
+ 
+} 
+class Person { 
+ String name, surname;
+//constructor
+ Person(String name, String surname) {
+  this.name = name;
+  this.surname = surname;
+ }
+//unnamed constructor 
+Person.empty();
+} 
